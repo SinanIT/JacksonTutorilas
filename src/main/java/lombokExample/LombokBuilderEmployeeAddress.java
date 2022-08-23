@@ -23,7 +23,6 @@ public class LombokBuilderEmployeeAddress {
 				.lastName("Degerli").build();
 		
 		System.out.println(objectMapper.writerWithDefaultPrettyPrinter().writeValueAsString(employee1));
-
 	}
 
 }
