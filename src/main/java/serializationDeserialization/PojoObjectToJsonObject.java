@@ -10,7 +10,6 @@ public class PojoObjectToJsonObject {
 		Person person = new Person();
 		person.setName("Sam");
 		person.setAge(43);
-		
 		ObjectMapper objectMapper = new ObjectMapper();
 		
 		String jsonString=  objectMapper.writerWithDefaultPrettyPrinter().writeValueAsString(person);
