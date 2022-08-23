@@ -37,7 +37,4 @@ public class Dog {
 				+ "Color of the dod is: " + color + "\n" 
 				+ "Age of the dog is :" + age;
 	}
-	
-	
-
 }
