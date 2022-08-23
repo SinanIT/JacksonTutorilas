@@ -15,8 +15,6 @@ public class PojoObjectToJsonObject {
 		
 		String jsonString=  objectMapper.writerWithDefaultPrettyPrinter().writeValueAsString(person);
 		System.out.println(jsonString);
-		
-		
 	}
 
 }
