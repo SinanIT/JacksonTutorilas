@@ -21,7 +21,6 @@ public class LombokBuilderEmployeeAddress {
 		LombokBuilder employee1 = employee.toBuilder()
 				.name("Sinan")
 				.lastName("Degerli").build();
-		
 		System.out.println(objectMapper.writerWithDefaultPrettyPrinter().writeValueAsString(employee1));
 	}
 
